@@ -1,0 +1,33 @@
+# 忽略所有文件內容
+*
+
+# 添加 git附加說明文件
+!.gitkeep
+!.gitignore
+
+# 添加指定程式擴展名文件
+!*.md
+
+# C/Cpp
+!*.h
+!*.c
+!*.cpp
+!Makefile
+
+# C#
+!*.cs
+
+# java
+!*.java
+
+# python
+!*.py
+
+# 添加指定doc擴展名文件
+!*.txt
+!*.png
+!*.pdf
+
+# 不忽略所有子目錄內容
+!*/
+!*/*
