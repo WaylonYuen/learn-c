@@ -3,18 +3,9 @@
 
 ## 題目
 
-請利用副程式寫一個求次方(Power)的函數，并返回結果。
-
-## 基礎: `v1.0`
-
-假設所有輸入數值都爲正整數，
-> Input ：2 10 <br>
-> Output：1024 
-
-并且參考 >>
+請利用副程式寫一個求次方(Power)的函數，并返回結果 & 并且參考 >>
 - 變數命名
 - 輸入輸出格式
-
 
 ### 變數命名參考
 |Variables       |說明 
@@ -45,6 +36,11 @@ printf(">> Pow( %d, %d ) = Does not exist!!!\n", base, power);  // Sample 4
 printf("* * * * * * * * * * * * * * * *\n");
 printf("|> Program: End Of Run...\n\n");
 ```
+
+## 基礎: `v1.0`
+
+假設所有輸入數值都爲正整數 >>
+
 ```
 Sample 1
 >> Input  : 2 4
@@ -62,3 +58,5 @@ Sample 4
 >> Input  : 0 0
 << Output : "Does not exist!!!"
 ```
+
+End
