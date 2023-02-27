@@ -8,12 +8,12 @@
 - 輸入輸出格式
 
 ### 變數命名參考
-|Variables       |說明 
-|:--------------:|----
-|base            |基底
-|power           |次方
-|Pow(int, int)   |求次方函數宣告
-|result          |運算結果
+|Variables          |說明 
+|:-----------------:|----
+|base               |基底
+|power              |次方
+|int Pow(int, int)  |求次方函數宣告
+|result             |運算結果
 
 ### 輸入輸出格式
 ```c
