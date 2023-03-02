@@ -42,19 +42,19 @@ printf("|> Program: End Of Run...\n\n");
 假設所有輸入數值都爲正整數 >>
 
 ```
-Sample 1
+Sample 1 ( n 的 m 次方)
 >> Input  : 2 4
 << Output : 16
 
-Sample 2
+Sample 2 ( n 的 0 次方)
 >> Input  : 25 0
 << Output : 1
 
-Sample 3
->> Input  : 0 0
+Sample 3 ( 0 的 m 次方 >> 采取 lim 極限策略 )
+>> Input  : 0 12
 << Output : e^0 = 1
 
-Sample 4
+Sample 4 ( 0 的 0 次方)
 >> Input  : 0 0
 << Output : "Does not exist!!!"
 ```
