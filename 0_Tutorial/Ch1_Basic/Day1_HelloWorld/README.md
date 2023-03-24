@@ -1,4 +1,20 @@
-# Day1 Hello World
+# 第 2 章 - 簡單的C語言小程式
+
+## 2.1 簡單的在螢幕上輸出小程序
+`C語言基本結構 - Hello world`
+
+``` c
+#1｜    #include <stdio.h>
+#2｜    
+#3｜    int main(void) {
+#4｜        printf("Hello world\n");
+#5｜        return 0;
+#6｜    }
+```
+這是一段輸出 "Hello world" 的小程序。
+為了使讀者看得清楚
+
+
 
 ``` c
 #include <stdio.h> // 標準輸入輸出函式庫
@@ -12,6 +28,9 @@ int main(/*參數*/) {
     return 0; // 程式結束
 }
 ```
+
+
+
 
 ### 0. Common 程式碼中的注解符號
 作用：用於標記、提醒、簡述程式碼邏輯，幫助自己或他人快速理解。(請務必經常注解)
